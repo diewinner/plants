@@ -1,0 +1,602 @@
+@font-face {
+  font-family: Inter;
+  src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-family: Inika;
+  src: url(/fonts/Inika-Regular.ttf);
+}
+.greenText {
+  color: #499a18;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1222px;
+}
+
+/* HEADER */
+header {
+}
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Inika";
+  font-size: 16px;
+  padding: 50px 0 50px;
+  margin: 0 auto;
+}
+.header__logo {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+.header__nameLogo {
+  align-self: center;
+  color: #000000;
+}
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  font-weight: 700;
+  max-width: 450px;
+  width: 100%;
+  align-self: center;
+}
+.header__nav a {
+  text-decoration: none;
+  line-height: 50px;
+  color: #010201;
+}
+.header__nav a:hover {
+  color: #e06733;
+}
+
+/* MAIN */
+
+/* WELCOME */
+.welcome {
+  width: 100%;
+}
+.welcome__container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Inter";
+  align-items: center;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  width: 100%;
+}
+.welcome__img {
+  flex: 1 1 50%;
+}
+.welcome__img img {
+  width: 65%;
+}
+.welcome__info {
+  max-width: 550px;
+  flex: 1 1 50%;
+}
+.welcome__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+.welcome__text {
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+}
+.welcome__button {
+  border: 2px solid #e06733;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 14px 28px 14px 28px;
+}
+.welcome__button:hover {
+  background: #e06733;
+  color: white;
+}
+
+/* ABOUT */
+.about {
+  width: 100%;
+}
+.about__container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  justify-content: space-between;
+}
+.about__info {
+  max-width: 605px;
+  align-self: center;
+}
+.about__title {
+  font-family: "Inika";
+  font-size: 40px;
+  line-height: 52px;
+  max-width: 460px;
+  color: #e06733;
+}
+.about__text {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+.about__img {
+}
+
+/* SERVICES */
+
+.service {
+  width: 100%;
+}
+.service__container {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  width: 100%;
+}
+.service__head {
+  padding-top: 40px;
+  display: flex;
+  max-width: 1010px;
+  width: 100%;
+  justify-content: space-between;
+  align-self: flex-start;
+  margin: 0 auto;
+}
+.service__title {
+  font-family: "Inika";
+  font-size: 40px;
+  line-height: 52px;
+  max-width: 305px;
+  color: #499a18;
+}
+.service__buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 560px;
+  width: 100%;
+}
+.service__buttons button {
+  border: 2px solid #e06733;
+  color: #e06733;
+  padding: 12px 40px;
+  font-family: "Inika";
+  font-size: 20px;
+  line-height: 26px;
+  height: 50px;
+  border-radius: 5px;
+}
+.service__buttons button:hover {
+  color: white;
+  background-color: #e06733;
+}
+.service__items {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding-bottom: 121px;
+}
+.service__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+}
+.service__img {
+  width: 100%;
+}
+.service__img img {
+  width: 100%;
+}
+.service__item__name {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #e06733;
+  text-align: center;
+}
+.service__item__text {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+  text-align: center;
+}
+
+/* PRICES */
+.prices {
+  width: 100%;
+}
+.prices__container {
+  padding-top: 40px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1222px;
+  justify-content: space-between;
+  padding-bottom: 115px;
+}
+.prices__order {
+}
+.prices__titleOne {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.prices__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+.prices__titleTwo {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  max-width: 450px;
+}
+.prices__contacts img {
+  width: 152px;
+  align-self: flex-end;
+}
+.prices__button {
+  font-family: "Inika";
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #e06733;
+  height: 50px;
+  width: 162px;
+  align-self: flex-end;
+  border: 2px solid #e06733;
+  border-radius: 5px;
+}
+.prices__button:hover {
+  color: white;
+  background-color: #e06733;
+}
+
+/* CONTACTS */
+.contacts {
+  width: 100%;
+}
+.contacts__container {
+  margin: 0 auto;
+  max-width: 1320px;
+  padding-top: 60px;
+}
+.contacts__title {
+  color: #499a18;
+  font-family: "Inika";
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  text-align: center;
+}
+.contacts__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+}
+.footer__container {
+  max-width: 1222px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer__year {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: #000000;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 50px;
+  align-self: center;
+}
+.footer__item {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  align-self: center;
+}
+.footer__itemSoc {
+  max-width: 200px;
+}
+.footer__itemSoc ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 188px;
+  gap: 10px;
+  padding: 0;
+}
+
+/* ADAPTIVE */
+/* 768 px */
+@media only screen and (max-width: 768px) {
+  /* header */
+  .header__container {
+    justify-content: space-around;
+  }
+
+  /* WELCOME */
+  .welcome__img {
+    order: 2;
+  }
+  .welcome__info {
+    order: 1;
+  }
+  .welcome__text {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 12px;
+  }
+  .welcome__title {
+    font-size: 35px;
+    line-height: 50px;
+    padding-bottom: 12px;
+  }
+  .welcome__img img {
+  }
+  .welcome__img {
+  }
+  .welcome__container {
+    gap: 40px;
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+  /* ABOUT */
+  .about__title {
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+    align-self: center;
+  }
+  .about__text {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 670px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .about__container {
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .about__info {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+  }
+  .about__img img {
+    width: 250px;
+    height: 258px;
+  }
+  .about__img {
+    align-self: center;
+  }
+  /* SERVICE */
+  .service__title {
+    font-size: 35px;
+    line-height: 46px;
+    max-width: 310px;
+    width: 100%;
+  }
+  .service__head {
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+    max-width: 670px;
+  }
+  .service__buttons {
+    align-self: flex-start;
+  }
+  .service__container {
+    gap: 40px;
+  }
+  .service__items {
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 670px;
+    width: 100%;
+  }
+  .service__img img {
+    width: 100%;
+  }
+  .service__item {
+    width: 100%;
+    max-width: 281px;
+  }
+  /* PRICES */
+  .prices__titleOne {
+    font-size: 35px;
+    line-height: 42px;
+  }
+  .prices__titleTwo {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+  }
+  .prices__contacts {
+    padding-top: 50px;
+  }
+  .prices__container {
+    padding-bottom: 65px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  /* CONTACTS */
+  .contacts__title {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .contacts__wrapper {
+    flex-direction: column;
+  }
+  .contacts__wrapper img {
+    width: 200px;
+    align-self: center;
+  }
+  /* FOOTER */
+  .footer__container {
+    flex-direction: column;
+  }
+  .footer__itemSoc {
+    align-self: center;
+  }
+  .footer__item {
+    align-self: center;
+  }
+  .footer__year {
+    align-self: center;
+  }
+}
+
+/* 380 px */
+@media only screen and (max-width: 380px) {
+  .header__nav {
+    display: none;
+  }
+
+  /* welcome */
+  .welcome__img {
+    display: none;
+  }
+  .welcome__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .welcome__info {
+    margin: 0 auto;
+  }
+  .welcome__text {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .welcome__container {
+    padding-left: 0;
+    padding-right: 0;
+
+    max-width: 330px;
+    width: 100%;
+  }
+  /* about */
+  .about__title {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .about__container {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 330px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* service */
+  .service__buttons {
+    flex-wrap: wrap;
+    padding: 0;
+    max-width: 255px;
+    width: 100%;
+    gap: 10px;
+    align-self: center;
+  }
+  .service__buttons button {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px 25px;
+  }
+  .service__title {
+    padding-left: 0;
+    max-width: 255px;
+    width: 100%;
+    font-size: 25px;
+    line-height: 33px;
+    align-self: center;
+  }
+  .service__head {
+    margin: 0 auto;
+  }
+  .service__items {
+    width: 100%;
+    max-width: 280px;
+  }
+  .service__item__name {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .service__item__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  /* prices */
+  .prices__contacts img {
+    display: none;
+  }
+  .prices__container {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 235px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .prices__titleOne {
+    align-self: center;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .prices__titleTwo {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .prices__order {
+    display: flex;
+    flex-direction: column;
+  }
+  .prices__button {
+    align-self: center;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px 20px;
+  }
+  /* contacts */
+  .contacts__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33px;
+  }
+  .contacts__wrapper img {
+    width: 100px;
+  }
+}
